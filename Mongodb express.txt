@@ -1,0 +1,9 @@
+#### for uploadin file in using mongodb, express
+=>
+npm install express-fileupload (then add some requirement)
+const fileUpload=require('express-fileupload');
+
+then use as a midleware
+
+app.use(express.static('doctors'))
+app.use(fileUpload())
